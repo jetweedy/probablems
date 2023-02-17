@@ -1,0 +1,31 @@
+King of France problem:
+
+The King of France is bald. True or False?
+There is no King of France. If we have to pick, False is the inclination.
+But it's also False that The King of France is NOT bald. Now what?
+
+Instead of Bx(Kxf), try:
+ - Ex(Kxf & Bx)  --> also false
+ - Ex(Kxf & ~Bx) --> also false
+
+This could provide some justification for IPs in syntax:
+
+CP
+    COMP
+    C'
+        [] <----2-----| 
+        IP            |
+           INFL <---1----|
+           I'         |  |
+               NP ----|  | 
+               VP        |
+                   V ----|
+                   XP
+     
+INFL/IP may serve as a position for logical/temporal scope.
+So the past/present tense context goes there, prior to any assertions made in the language that follows.
+1) Verbs move up into the INFL to obtain their inflection.
+2) In some languages, where empty heads of a complementizer aren't preferred (like English), the NP may move up into that position.
+
+
+
